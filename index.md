@@ -1,6 +1,6 @@
 # QR Sense Privacy Policy
 
-Effective date: April 21, 2026
+Effective date: April 22, 2026
 
 QR Sense is a mobile application by Secret App. This Privacy Policy explains
 how QR Sense handles information when you use the app.
@@ -16,18 +16,20 @@ QR Sense is designed to work primarily on your device.
   locally on your device.
 - WiFi passwords are not stored in History or Favorites.
 
-## Information We Process
+## Information Handled by QR Sense
 
-Depending on how you use the app, QR Sense may process the following categories
-of information:
+Depending on how you use the app, QR Sense may handle the following categories
+of information on your device:
 
-- QR and barcode content that you scan with your camera or import from an image
+- QR code content that you scan with your camera or import from an image
 - QR code content that you create in the app
 - App data you choose to save locally, such as History, Favorites, folders, and
   settings
 - Device authentication status used for the optional app lock feature
-- Diagnostics, advertising, and analytics-related data collected by third-party
-  services described below
+
+QR Sense is designed to work primarily on your device. In addition, limited
+diagnostic, advertising, and analytics-related data may be collected by
+third-party services used by the app, as described below.
 
 ## Camera Permission
 
@@ -40,18 +42,22 @@ items.
 
 ## Photos, Gallery, and Saved Images
 
-QR Sense can save generated QR images to your photo gallery when you choose
-"Save PNG."
+QR Sense can save generated QR images to your photo library or gallery when you
+choose "Save PNG."
+
+QR Sense requests photo library or gallery access only when needed for a
+feature you choose, such as importing an image to scan or saving a generated QR
+image.
 
 QR Sense does not read, scan, upload, or sync your existing photo library for
 background profiling or unrelated purposes.
 
-On Android 10 and newer, QR Sense saves exported images through the system media
-store. On older Android versions, storage permission may be requested only when
-needed to save an image.
-
 If you use scan-from-gallery features, image processing is performed only to
 read the code from the image you selected.
+
+On supported Android versions, exported images may be saved using platform media
+APIs. On older Android versions, storage permission may be requested only when
+needed to save an image.
 
 ## Sharing
 
@@ -113,6 +119,11 @@ Google and its partners may collect or receive information such as:
 This data may be used for advertising, measurement, fraud prevention, security,
 and service reliability.
 
+On iOS, QR Sense may also request permission to use the system advertising
+identifier for advertising and measurement purposes, depending on your region,
+device settings, app configuration, and the consent or privacy choices made
+available to you.
+
 For more information about how Google handles data, review Google's policies:
 
 - https://policies.google.com/privacy
@@ -134,7 +145,7 @@ When enabled, analytics events may include information such as:
 - screen views
 - feature usage
 - first completed action
-- notification permission status
+- certain device permission states
 - completed scans
 - generated QR codes
 - ad impressions and ad clicks
@@ -186,8 +197,11 @@ retained according to their own policies.
 Depending on your device, region, and app version, you may be able to:
 
 - deny camera permission
-- decline notification permission
+- deny photo library access
+- decline notification permission, where applicable
+- review or change ad privacy choices presented in the app, where available
 - manage advertising or privacy settings on your device
+- review or change tracking-related permissions on your device, where supported
 - enable or disable the optional app lock
 - delete History, Favorites, generated QR codes, or other saved items inside
   the app
@@ -217,4 +231,4 @@ For privacy questions, data protection requests, or support, contact:
 
 - Secret App
 - Email: secretapplab@gmail.com
-
+- Website: https://secretapplab.github.io/qr-sense-privacy/
